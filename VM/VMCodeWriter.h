@@ -324,13 +324,6 @@ void VMCodeWriter::writeNot()
     file << "A=M" << endl;
     file << "D=M" << endl;
     file << "D=!D" << endl;
-
-    //now adjust SP
-    file << "@SP" << endl;
-    file << "A=M" << endl;
-    file << "M=D" << endl;
-    file << "@SP" << endl;
-    file << "M=M+1" << endl;
 }
 
 void VMCodeWriter::writePushPop(char commandType, string segment, int index)
