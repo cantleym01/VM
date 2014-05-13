@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1399595364 source:c:\users\michael\documents\college\cs 270\nand2tetris\nand2tetris\projects\07\vm\vm\main.cpp
+	<iostream>
+	"VMCodeWriter.h"
+	"VMParser.h"
+
+1399951722 c:\users\michael\documents\college\cs 270\nand2tetris\nand2tetris\projects\07\vm\vm\vmcodewriter.h
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<stdlib.h>
+
+1399595595 c:\users\michael\documents\college\cs 270\nand2tetris\nand2tetris\projects\07\vm\vm\vmparser.h
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+
